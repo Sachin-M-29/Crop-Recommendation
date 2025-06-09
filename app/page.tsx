@@ -24,6 +24,7 @@ export default function Home() {
           <Link href="/contact" className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-200">
             Contact
           </Link>
+           
         </nav>
 
         {/* Mobile Menu Button */}
@@ -61,9 +62,11 @@ export default function Home() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <Link href="/recommendations" className="group bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
+          <Link href="/Recommendation" className="group bg-gradient-to-r from-green-600 to-emerald-600 text-white px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200">
             <span className="flex items-center gap-2">
-              Get Crop Recommendations
+
+              Get Recommendation
+             
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
