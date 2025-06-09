@@ -16,7 +16,7 @@ export default function About() {
           About Us
         </h1>
         <p className="text-lg leading-relaxed mb-4">
-          Welcome to our <span className="font-semibold">Crop Recommendation System</span>! <p>We&apos;re building something awesome.</p> experts and technology enthusiasts dedicated to transforming farming with smart, data-driven tools.
+          Welcome to our <span className="font-semibold">Crop Recommendation Systems</span>! <p>We&apos;re building something awesome.</p> experts and technology enthusiasts dedicated to transforming farming with smart, data-driven tools.
         </p>
         <p className="text-lg leading-relaxed mb-4">
           Our system analyzes key factors like soil type, weather patterns, and regional data to provide personalized crop suggestions that maximize yield and sustainability.
