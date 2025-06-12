@@ -13,7 +13,7 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
-      "prefer-const": "off", // 🔧 disables the error for never-reassigned 'let'
+      "prefer-const": "off", // Disables the error for never-reassigned 'let'
     },
   },
 ];
